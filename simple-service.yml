@@ -4,8 +4,6 @@ eureka:
     fetch-registry: true
   instance:
     hostname: simple-service
-    prefer-ip-address: true
-    instance-id: ${spring.application.name}:${random.value}
 
-message: Hello from config repo def
+message: Hello from simple config repo def
 name: Bob def
